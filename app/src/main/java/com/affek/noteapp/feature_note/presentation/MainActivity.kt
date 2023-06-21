@@ -1,4 +1,4 @@
-package com.affek.noteapp
+package com.affek.noteapp.feature_note.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -18,12 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             NoteAppTheme {
                 // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
 
-                }
             }
         }
     }
