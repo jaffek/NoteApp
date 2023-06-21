@@ -11,4 +11,8 @@ import com.affek.noteapp.feature_note.domain.model.Note
 abstract class NoteDatabase: RoomDatabase() {
 
     abstract val noteDao: NoteDao
+
+    companion object {
+        const val DTABASE_NAME = "notes_db"
+    }
 }
